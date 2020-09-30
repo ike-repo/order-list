@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.order {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+    position: relative;
+}
+
+.swt-ord {
+    border: 2px solid rgb(70, 66, 66);
+    width: 400px;
+    height: 100px;
+    background-color: rgb(115, 209, 238);
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bvr-ord {
+    border: 2px solid rgb(70, 66, 66);
+    width: 400px;
+    height: 100px;
+    background-color: rgb(205, 146, 233);
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+/* 
+.tot-prc {
+    border: 2px solid rgb(70, 66, 66);
+    width: 400px;
+    height: 100px;
+    background-color: rgb(224, 202, 131);
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 40px;
+} */
+
+.sweets {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(115, 209, 238);
+}
+
+.beverages {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 146, 233);
+}
+
+.swts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.bvrgs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
